@@ -1,0 +1,7 @@
+-   id: django-migrations-exist
+    name: check blanket noqa
+    description: 'Enforce that any model changes are accompanied by staged migrations'
+    entry: migrations-exist.py
+    language: python
+    types: [python]
+    files: /models(/.*)?.py$
