@@ -1,0 +1,4 @@
+.venv
+Pipfile*
+dist/
+*.egg-info

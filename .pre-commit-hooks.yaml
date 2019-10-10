@@ -1,5 +1,5 @@
 -   id: django-migrations-exist
-    name: check blanket noqa
+    name: check model changes have migrations
     description: 'Enforce that any model changes are accompanied by staged migrations'
     entry: migrations-exist.py
     language: python
